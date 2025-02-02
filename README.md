@@ -41,12 +41,18 @@ git clone https://github.com/your-repo/liver-necrosis-api.git
 cd liver-necrosis-api
 ```
 
-### 2️⃣ **Install Dependencies**
+### 2️⃣ **Create Virtual Enviroment**
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
+source .venv/Scripts/activate
 ```
 
-### 3️⃣ **Run the API**
+### 3️⃣ **Install Dependencies**
+```bash
+pip install -r requirements
+```
+
+### 4️⃣ **Run the API**
 ```bash
 python app.py
 ```
