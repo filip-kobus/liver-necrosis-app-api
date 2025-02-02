@@ -1,0 +1,24 @@
+detailed:
+{
+    "Age [days]": int 0-60000 -> age in days (albo bierzesz date urodzenia albo pytasz ile ma lat i x365)
+    "Ascites": int 0|1 -> yes|no
+    "Hepatomegaly": int 0|1 -> yes|no
+    "Spiders": int 0|1 -> yes|no
+    "Edema": int 0|1|2 -> yes|no|yes but didnt take diuretics, 
+    "Bilirubin [mg/dl]": "double 0-30",
+    "Cholesterol [mg/dl]": "double 50-500",
+    "Albumin [gm/dl]": "double 0-8",
+    "Copper [ug/day]": "double 0-500",
+    "Platelets [ml/1000]": "double 0-750",
+    "Prothrombin [s]": "int 0-30"
+}
+
+basic
+{
+    "Age [days]": int 0-60000 -> age in days (albo bierzesz date urodzenia i liczysz albo ile ma lat i x365)
+    "Edema": int 0|1|2 -> yes|no|yes but didnt take diuretics
+    "Bilirubin [mg/dl]": double 0-30
+    "Albumin [gm/dl]": double 0-8
+    "Platelets [ml/1000]": double 0-750
+    "Prothrombin [s]": int 0-30
+}
