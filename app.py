@@ -3,6 +3,7 @@ from flask_cors import CORS
 import pickle
 import pandas as pd
 import cirrhosis_stages
+import json
 
 app = Flask(__name__)
 
@@ -21,14 +22,25 @@ DETAILED_FEATURES = ["Age [days]", "Ascites", "Hepatomegaly", "Spiders", "Edema"
                      "Bilirubin [mg/dl]", "Cholesterol [mg/dl]", "Albumin [gm/dl]",
                      "Copper [ug/day]", "Platelets [ml/1000]", "Prothrombin [s]"]
 
+TRANSFORMATION = {
+    "Yes":0,
+    "No":1,
+    "Yes but no diuretics":2
+}
 
 def preprocess_request(data, feature_order):
     """
     Converts JSON input into a DataFrame with the correct feature order.
     """
     try:
+        for key, value in data.items():
+            if value in TRANSFORMATION.keys():
+                print(f"{data[key]} - {TRANSFORMATION[value]}")
+                data[key] = TRANSFORMATION[value]
+        data['Age [days]'] = data['Age']*365
+        data.pop('Age')
         df = pd.DataFrame([data])
-        df = df[feature_order]  # Ensure correct feature order
+        df = df[feature_order]
         return df
     except KeyError as e:
         return f"Missing feature: {e}", 400  # Return error if a feature is missing

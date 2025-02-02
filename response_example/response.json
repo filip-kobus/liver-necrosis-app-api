@@ -1,3 +1,6 @@
 {
-    "Stage": 4
+    "Accuracy": 51.25,
+    "Description": "Decompensated cirrhosis represents a more severe form of liver damage, where the liver’s ability to function is compromised. This stage often brings complications such as ascites, jaundice, and hepatic encephalopathy, which may require hospitalization for treatment. Medications such as diuretics can help manage fluid retention, and lactulose or rifaximin may be prescribed to address hepatic encephalopathy, a condition where the buildup of toxins leads to brain dysfunction. Nutritional support becomes particularly important, as patients may experience deficiencies; a high-protein, low-sodium diet is typically advised. Depending on the severity, liver transplantation may be considered, and patients should be evaluated for this option. Because decompensated cirrhosis carries a high risk of serious complications, it is vital for patients to remain under the care of specialists who can guide them through treatment options, including potential transplant evaluations.",
+    "Stage": 3,
+    "StageName": "Stage 3 - Decompensated Cirrhosis"
 }

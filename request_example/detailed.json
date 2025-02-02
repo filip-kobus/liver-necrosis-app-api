@@ -1,13 +1,13 @@
 {
-    "Age [days]": 18250,  
-    "Ascites": 0,  
-    "Hepatomegaly": 0,  
-    "Spiders": 0,  
-    "Edema": 0,  
-    "Bilirubin [mg/dl]": 1.2,  
-    "Cholesterol [mg/dl]": 180,  
-    "Albumin [gm/dl]": 3.2,  
-    "Copper [ug/day]": 80,  
-    "Platelets [ml/1000]": 180.0,  
-    "Prothrombin [s]": 12
+    "Age": 45,
+    "Ascites": "Yes",
+    "Hepatomegaly": "No",
+    "Spiders": "Yes",
+    "Edema": "Yes but didnt take diuretics",
+    "Bilirubin [mg/dl]": 12.5,
+    "Cholesterol [mg/dl]": 210.0,
+    "Albumin [gm/dl]": 4.2,
+    "Copper [ug/day]": 180.0,
+    "Platelets [ml/1000]": 250.0,
+    "Prothrombin [s]": 15
 }

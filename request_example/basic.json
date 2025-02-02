@@ -1,8 +1,8 @@
 {
-    "Age [days]": 10950,  
-    "Edema": 1,  
-    "Bilirubin [mg/dl]": 2.4,  
-    "Albumin [gm/dl]": 4.1,  
-    "Platelets [ml/1000]": 210.5,  
-    "Prothrombin [s]": 11  
+    "Age": 45,
+    "Edema": "No",
+    "Bilirubin [mg/dl]": 12.5,
+    "Albumin [gm/dl]": 4.2,
+    "Platelets [ml/1000]": 250.0,
+    "Prothrombin [s]": 15
 }
