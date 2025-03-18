@@ -5,6 +5,17 @@ The API accepts **basic** and **detailed** patient records in **JSON format** an
 
 ---
 
+## :exclamation: Model
+The model used was a Decision Tree Classifier. For detailed information, refer to the repository:
+
+[Cirrhosis Classification Model](https://github.com/filip-kobus/cirrhosis-classification-model)
+
+## :exclamation: UI Implementation
+The UI was built with React, focusing on responsiveness and user-friendly design. For detailed information, refer to the repository:
+
+[UI Implementation Repository](https://github.com/Szymon-Stasiak/liver-necrosis-app-ui)
+
+
 ## 📌 Features
 ✅ REST API using **Flask**  
 ✅ Supports **Basic** and **Detailed** prediction models  
